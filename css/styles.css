@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+}
+figure{
+    text-align: center;
+}
+
+#login_page{
+    background-image: url(/images/Symbiosis_International_University_LavaleCampus_Pune.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 0;
+}
+
+#overlay_gradient{
+    background: linear-gradient(180deg, #212121CC 0%, #DD1818CC 100%);
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login_box {
+/*    border: 1px solid white;*/
+    box-sizing: border-box;
+    height: 70%;
+    width: 25%;
+    padding: 20px;
+}
+
+#symbi_logo {
+    height: 120px;
+    width: 100px;
+    margin-top: 0px;
+}
+
+.login input[type="email"], .login input[type="password"]{
+    letter-spacing: 0.13em;
+    color:#ffffff;  
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    padding-bottom: 20px; 
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: inherit;
+    height: 45px;
+    margin-top: 60px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #ffffff;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.password_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    vertical-align: center;
+}
+
+#forgot_password {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: inherit;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+#login_password{
+    width: 145px;
+    height: 44px;
+    font-family: inherit;
+    font-size: 14px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    background: #fff;
+    opacity: 1;
+}
+
