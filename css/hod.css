@@ -176,7 +176,7 @@ a:hover{
     width: 85%;
 }
 
-input[type=text]{
+.search-bar input[type=text]{
     height: 30px;
     border: none;
     background-image: url(/images/search-solid.svg);
@@ -352,101 +352,6 @@ input[type=text]{
     justify-content: flex-start;
 }
 
-.pie-wrapper {
-  height: 10em;
-  width: 10em;
-  float: left;
-  margin: 15px;
-  position: relative;
-}
-
-.pie-wrapper:nth-child(3n + 1) {
-  clear: both;
-}
-.pie-wrapper .pie {
-  height: 100%;
-  width: 100%;
-  clip: rect(0, 1em, 1em, 0.5em);
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-.pie-wrapper .pie .half-circle {
-  height: 100%;
-  width: 100%;
-  border: 0.1em solid #3498db;
-  border-radius: 50%;
-  clip: rect(0, 0.5em, 1em, 0);
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-.pie-wrapper .label {
-  background: #34495e;
-  border-radius: 50%;
-  bottom: 0.4em;
-  color: #ecf0f1;
-  cursor: default;
-  display: block;
-  font-size: 3em;
-  left: 0.6em;
-  line-height: 2.8em;
-  position: absolute;
-  right: 0.4em;
-  text-align: center;
-  top: 0.1em;
-}
-.pie-wrapper .label .smaller {
-  color: #bdc3c7;
-  font-size: .45em;
-  padding-bottom: 20px;
-  vertical-align: super;
-}
-.pie-wrapper .shadow {
-  height: 100%;
-  width: 100%;
-  border: 0.1em solid #bdc3c7;
-  border-radius: 50%;
-}
-.pie-wrapper.style-2 .label {
-  background: none;
-  color: #7f8c8d;
-}
-.pie-wrapper.style-2 .label .smaller {
-  color: #bdc3c7;
-}
-.pie-wrapper.progress-95 .pie {
-  clip: rect(auto, auto, auto, auto);
-}
-.pie-wrapper.progress-95 .pie .half-circle {
-  border-color: #e74c3c;
-}
-.pie-wrapper.progress-95 .pie .left-side {
-  -webkit-transform: rotate(342deg);
-          transform: rotate(342deg);
-}
-.pie-wrapper.progress-95 .pie .right-side {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.pie-wrapper--solid {
-  border-radius: 50%;
-  overflow: hidden;
-}
-.pie-wrapper--solid:before {
-  border-radius: 0 100% 100% 0 / 50%;
-  content: '';
-  display: block;
-  height: 100%;
-  margin-left: 50%;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-}
-.pie-wrapper--solid .label {
-  background: transparent;
-}
-
 #tab2 {
     width: 100%;
     height: 100%;
@@ -562,4 +467,9 @@ input[type=text]{
 .timeline-item:last-child {
   -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
      border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.last-fdps {
+    display: block;
+    width: 60%;
 }

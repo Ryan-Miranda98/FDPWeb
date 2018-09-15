@@ -175,7 +175,7 @@ a:hover{
     width: 85%;
 }
 
-input[type=text]{
+.search-bar input[type=text]{
     height: 30px;
     border: none;
     background-image: url(/images/search-solid.svg);
@@ -344,10 +344,8 @@ input[type=text]{
 
 .fdp-stats {
     width: 100%;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    height: 100%;
+    display: block;
 }
 
 /*.pie-wrapper {*/
