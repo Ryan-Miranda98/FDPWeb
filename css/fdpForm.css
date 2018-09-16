@@ -239,4 +239,17 @@ a:hover{
     border: 2px solid #eee;
     border-radius: 5px;
     box-shadow: 5px 5px #c4c4c4;
+    margin-top: 60px;
+}
+
+.submit-button {
+    float: right;
+    width: 40%;
+    height: 40px;
+}
+
+.submit-button input[type=submit]{
+    float: right;
+    width: 40%;
+    height: 40px;
 }
