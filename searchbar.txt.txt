@@ -1,0 +1,113 @@
+HTML
+
+<div class="search-bar">
+                <input type="text" placeholder="Search for an FDP / User / Setting">
+
+                <!--                extended-->
+                <div class="search-suggestion">
+                    <div class="searches">
+                        <figure>
+                            <img src="https://via.placeholder.com/150x150" class="searchbar-profile-picture">
+                        </figure>
+                        <div class="faculty-name">
+                            <p>Shruti Patil</p>
+
+                            <div class="view-details">
+                                <p><a href="#">View All FDPs</a></p>
+                                <p><a href="#">View Pending FDPs</a></p>
+                                <p><a href="#">View Faculty Profile</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="searches">
+                    <figure>
+                        <img src="https://via.placeholder.com/150x150" class="searchbar-profile-picture">
+                    </figure>
+                    <div class="faculty-name">
+                        <p>Shruti Patil</p>
+
+                        <div class="view-details">
+                            <p><a href="#">View All FDPs</a></p>
+                            <p><a href="#">View Pending FDPs</a></p>
+                            <p><a href="#">View Faculty Profile</a></p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="searches">
+                    <figure>
+                        <img src="https://via.placeholder.com/150x150" class="searchbar-profile-picture">
+                    </figure>
+                    <div class="faculty-name">
+                        <p>Shruti Patil</p>
+
+                        <div class="view-details">
+                            <p><a href="#">View All FDPs</a></p>
+                            <p><a href="#">View Pending FDPs</a></p>
+                            <p><a href="#">View Faculty Profile</a></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+
+
+CSS
+
+.search-suggestion {
+    width: 100%;
+    height: 215px;
+    background: #F5F5F5;
+    position: relative;
+}
+
+.searches {
+    width: 100%;
+    height: 75px;
+    border-left: 1px solid #c4c4c4;
+    padding: 10px;
+    border-right: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.searches figure{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+
+.searchbar-profile-picture {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.faculty-name {
+    font-size: 18px;
+    position: relative;
+    width: 100%;
+}
+
+.faculty-name p{
+    margin: 0;
+}
+
+.view-details {
+    margin-left: 15px;
+    height: 36px;
+    width: 100%;
+    padding: 10px;
+}
+
+.view-details p {
+    float: left;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.view-details a:hover{
+    text-decoration: none;
+    color: #000;
+}

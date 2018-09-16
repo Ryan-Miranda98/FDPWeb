@@ -165,16 +165,20 @@ a:hover {
     width: 5%;
     height: 100%;
     border-right: 1px solid #eee;
+/*
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+*/
 }
 
 
 .search-bar {
     height: 100%;
     width: 85%;
+    
+    position: relative;
 }
 
 .search-bar input[type=text] {
