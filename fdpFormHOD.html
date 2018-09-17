@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>FDP Request Form</title>
+		<title>FDP Request Form HOD</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link href="css/fdpForm.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans|Roboto+Condensed" rel="stylesheet"> 
@@ -14,7 +14,7 @@
                     <img src="https://via.placeholder.com/150x150" class="profile-picture">
                 </figure>
                 <p id="Name">Arpan Srivastava</p>
-                <p id="Designation">Faculty</p>
+                <p id="Designation">HOD</p>
             </div>
             <div>
                 <div class="manage">
@@ -110,13 +110,33 @@
                         <input type="text">
                     </div>  
                     
-                    <div class="submit-reset">
+                    <div class="form-divs">
+                        <label>Approved</label>
+                        
+                        <div class="approved-faculty">
+                            <div style="position: relative;">
+                                <figure><a href="#"><img src="https://via.placeholder.com/150x150" data-toggle="tooltip" title="Hooray!"></a></figure>
+                            </div> 
+                            
+                            <div style="position: relative;">
+                                <figure><a href="#"><img src="https://via.placeholder.com/150x150" data-toggle="tooltip" title="Hooray!"></a></figure>
+                            </div>
+                            
+                            <div style="position: relative;">
+                                <figure><a href="#"><img src="https://via.placeholder.com/150x150" data-toggle="tooltip" title="Hooray!"></a></figure>
+                            </div> 
+                            
+                            
+                        </div>
+                    </div>  
+                    
+                    <div class="accept-deny">
                         <div>
-                            <input type="submit" value= "Submit" name="submitButton">
+                            <button class="btn btn-danger" type="submit" name="denyButton">Deny</button>
                         </div>
                     
                         <div>
-                            <input type="submit" value= "Reset" name="resetButton">
+                            <button class="btn btn-primary" type="submit" name="denyButton">Accept</button>
                         </div>
                     </div>
                 </form>
